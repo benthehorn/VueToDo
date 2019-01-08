@@ -5,11 +5,32 @@
 </template>
 
 <script>
-import ToDoList from './components/ToDoList'
+import ToDoList from './components/ToDoList';
 
 export default {
   components: {
     ToDoList,
+  },
+
+  data() {
+    return {
+      todos: [{
+        title: 'Todo A',
+        project: 'Project A',
+        done: false,
+      },
+      {
+        title: 'Todo B',
+        project: 'Project B',
+        done: true,
+      },
+      ,
+      {
+        title: 'Todo D',
+        project: 'Project D',
+        done: false,
+      }],
+    };
   },
 };
 </script>

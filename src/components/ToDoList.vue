@@ -15,13 +15,13 @@
 </div>
 </template>
 
-    <script type="text/javascript">
-    export default {
-        
-    };
-    </script>
+<script type="text/javascript">
+export default {
+
+};
+</script>
 
     <style>
 
     </style>
-    
+
